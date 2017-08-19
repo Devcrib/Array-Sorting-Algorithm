@@ -5,6 +5,7 @@ simple function that returns an array of numbers arranged from lowest to highest
 
 ```javascript
 arr = [1,4,5,3,6,6,7,6,5,6,3,4,6,4];
+
 console.log(sort(arr));
 
 would return [ 1, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7 ].
@@ -17,17 +18,18 @@ the syntax :
 
 ```javascript
 arr = [1,4,5,3,6,6,7,6,5,6,3,4,6,4];
-console.log(arr.sort("up"));
 
-would still return [ 1, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7 ].
+console.log(arr.mysort("up"));
+
+would still return [ 1, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7 ]
 ```
 
 while 
 
 ```javascript
-console.log(arr.sort("down"));
+console.log(arr.mysort("down"));
 
-would return [ 1, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7 ].
+would return [ 7, 6, 6, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 1 ]
 ```
 
 
