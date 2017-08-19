@@ -12,7 +12,7 @@ function sort(array) {
     return arr;
 }
 
-Array.prototype.sort = (order) => {
+Array.prototype.mysort = (order) => {
     if (order == "down") {
         for (let i = 0; i < arr.length; i++) {
             for (let i = 0; i < arr.length; i++) {
